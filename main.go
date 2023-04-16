@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	client, err := mongo.NewClient(options.Client().ApplyURI("mongodb+srv://samsapi01:Cq4ohuHPZtLzkhMw@cluster0.2k2acej.mongodb.net/?retryWrites=true&w=majority"))
+	client, err := mongo.NewClient(options.Client().ApplyURI(""))
 	if err != nil {
 		log.Fatal(err)
 	}
